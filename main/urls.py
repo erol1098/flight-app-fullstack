@@ -29,5 +29,7 @@ urlpatterns = [
     path("redoc/", schema_view.with_ui("redoc",
          cache_timeout=0), name="schemaredoc"),
     path('__debug__/', include('debug_toolbar.urls')),
-    path("users/", include("users.urls"))
+    path("users/", include("users.urls")),
+    path("flight/", include("flight.urls")),
+
 ]
