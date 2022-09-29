@@ -21,6 +21,7 @@ INSTALLED_APPS = [
   "drf_yasg",
   #? My Apps
   "users",
+  "flight",
 ]
 
 MIDDLEWARE = [
